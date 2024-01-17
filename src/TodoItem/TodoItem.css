@@ -1,0 +1,61 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tick{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed{
+    background-color: chartreuse;
+}
+
+/* .cierre :hover{
+    background-color: red;
+} */
+
+.subraya{
+    text-decoration: line-through;
+
+}
+
+.texto{
+    flex: 1;
+}
+
+.cierre{
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+   
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-svg{
+    width: 10px;
+    height: 10px;
+}
+
+.cierre :hover{
+    fill: red;
+}
+
+.tick :hover{
+    fill: green;
+}
